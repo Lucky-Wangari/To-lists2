@@ -1,28 +1,22 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Todo List</title>
     <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
 </head>
 <body>
   <div class="wrapper">
-    <header>To do list</header>
+    <header>Todo List</header>
     <div class="inputField">
-      <input type="text" placeholder="Add your new todo">
-      <button><i class="fas fa-plus"></i></button>
+      <input type="text" id="userIdInput" placeholder="User ID">
+      <input type="text" id="taskInput" placeholder="Add your new task">
+      <button id="addBtn">Add Task</button>
     </div>
-    <ul class="todoList">
-
-    </ul>
-    <div class="footer">
-      <span>These are <span class="pendingTasks"></span> the pending tasks</span>
-      <button>Clear Tasks</button>
-    </div>
+    <ul id="todoList"></ul>
   </div>
+
   <script src="index.js"></script>
 </body>
-</html> 
+</html>
