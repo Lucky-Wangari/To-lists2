@@ -1,0 +1,84 @@
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set background color and font styles for the body */
+body {
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+}
+
+/* Style the todo container */
+.todo-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the todo title */
+.todo-title {
+  text-align: center;
+  color: #333333;
+}
+
+/* Style the todo form */
+.todo-form {
+  margin-top: 20px;
+}
+
+/* Style the task input */
+#taskInput {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  outline: none;
+}
+
+/* Style the add task button */
+#addTaskBtn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Style the task list container */
+#taskListContainer {
+  list-style-type: none;
+  margin-top: 20px;
+}
+
+/* Style the delete tasks button */
+#deleteTasksBtn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #f44336;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Style the success message container */
+#successMessageContainer {
+  margin-top: 20px;
+  color: #4caf50;
+  font-weight: bold;
+  text-align: center;
+}

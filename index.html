@@ -3,20 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Todo List</title>
-    <link rel="stylesheet" href="index.css">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="wrapper">
-    <header>Todo List</header>
-    <div class="inputField">
-      <input type="text" id="userIdInput" placeholder="User ID">
-      <input type="text" id="taskInput" placeholder="Add your new task">
-      <button id="addBtn">Add Task</button>
-    </div>
-    <ul id="todoList"></ul>
-  </div>
+    <div class="todo-container">
+        <h1 class="todo-title">To-Do List</h1>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-  <script src="index.js"></script>
+        <form class="todo-form" id="todo-form">
+            <input id="taskInput" type="number" placeholder="User ID"> <br> <br>
+            <span><button id="addTaskBtn" type="button">Add</button></span>
+            <br><br>
+            <h1>Tasks</h1>
+            <ul id="taskListContainer"></ul>
+            <button id="deleteTasksBtn" type="button">Delete Tasks</button>
+            <div id="successMessageContainer"></div>
+        </form>
+    </div>
+    <script src="index.js"></script>
 </body>
 </html>
